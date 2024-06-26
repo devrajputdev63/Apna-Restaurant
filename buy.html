@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body{
+        background: linear-gradient(90deg,rgb(32, 144, 176),rgb(213, 244, 146),rgb(216, 154, 238));
+        margin-left: 39%;
+    }  
+    .dev{
+        background-color: none;
+        font-size: 20px;
+        color: rgb(248, 29, 29);
+        width: 200px;
+        padding: 0px 180px 0px 20px;
+        border-style: solid;
+        margin-top: 10px;
+    }
+    Button{
+    background: linear-gradient(180deg, yellow, rgba(231, 45, 38, 1.0));
+    border-radius: 12px;
+    border-color: aquamarine;
+    border-width: 2px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+#chintu{
+    background: linear-gradient(180deg, yellow, rgba(231, 45, 38, 1.0));
+    border-radius: 12px;
+    border-color: aquamarine;
+    border-width: 2px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    align-items: center;
+}
+.x{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(224, 202, 202);
+   
+}
+
+
+.f{
+    
+    color: aliceblue;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.u {
+    display: block;
+   
+}
+
+.p{
+    display: block;
+}
+
+li{
+    display: block;
+    
+}
+
+a{
+    text-decoration:none;
+    color:rgb(237, 217, 217);
+}
+
+    </style>
+</head>
+<body>
+<div class="dev">
+    <form onsubmit="return validate()">
+        <span id="error1"></span><br>
+<h3><i><strong> <u>Add&nbsp;delivery&nbsp;address</u></strong></i></h3>
+<label> Full Name:</label><input type="text" PLACEHOLDER="Enter Name" id="username">
+<label> Phone&nbsp;number:</label><input type="text" placeholder="Enter Number" id="username">
+<label> Pin&nbsp;Code:</label><input type="text"placeholder="Enter pincode" id="username">
+<label> State:</label><input type="text" height="50" placeholder="Enter Address" id="username">
+<label> City:</label><br><input type="text" placeholder="Enter City" id="username">
+<label> House&nbsp;No.&nbsp;Building&nbsp;name:</label>
+<input type="text" placeholder="Enter Number" id="username">
+<label> Road&nbsp;Name,&nbsp;Area,&nbsp;Colony:</label>
+<input type="text" placeholder="Enter" id="username">&nbsp;&nbsp;
+<button type="reset">Reset</button><br><br>
+        <button>Save Address</button>
+</form>
+<script type="text/javascript">
+    function validate(){
+        var username=document.getElementById('username').value;
+        var error=document.getElementById('error1');
+        if(username.length < 3){
+            error.textContent="!Please fill the information";
+            return false;
+        }
+        else{
+            error.textContent="";
+            return false;
+        }
+    }
+</script>
+</body>
+</html>

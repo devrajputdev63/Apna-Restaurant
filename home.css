@@ -1,0 +1,119 @@
+body{
+    background: #000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 26px;
+}
+nav h1{
+    font-size: 40px;
+    color: red;
+    border-bottom: 5px solid rgb(251, 60, 60);
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    
+} 
+
+ul{
+    display: flex;
+   
+    
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+   
+}
+.h{
+    text-shadow: 4px 4px #656262;
+}
+.btn button{
+    width: 100px;
+    height: 36px;
+    border: 3px solid red;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+.main_div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+
+}
+.main_div .heading{
+    font-size: 50px;
+    margin-left: 40px;
+    
+}
+
+.heading button{
+    width: 180px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    
+
+}
+.heading button{
+    background-color: black;
+    border: 3px solid red;
+    cursor: pointer;
+
+
+}
+.img img{
+    margin-right: 30px;
+    width: 570px;
+
+}  
+
+.x{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(224, 202, 202);
+   
+}
+
+
+.f{
+    
+    color: aliceblue;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.u {
+    display: block;
+   
+}
+
+.p{
+    display: block;
+}
+
+li{
+    display: block;
+    
+}
+
+a{
+    text-decoration:none;
+    color:rgb(237, 217, 217);
+}

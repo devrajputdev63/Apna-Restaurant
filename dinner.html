@@ -1,0 +1,209 @@
+
+<html>
+<head>
+<title> html form    </title>
+<style>
+body{
+        background: linear-gradient(90deg,rgb(32, 144, 176),rgb(213, 244, 146),rgb(216, 154, 238));
+    }
+    nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 26px;
+}
+nav h1{
+    font-size: 40px;
+    color: red;
+    border-bottom: 5px solid rgb(251, 60, 60);
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    
+}
+ul{
+    display: flex;
+   
+    
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+   
+}
+a{
+    text-decoration: none;
+}
+.btn button{
+    width: 100px;
+    height: 36px;
+    border: 3px solid red;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+#menu{
+    padding: 25px 0 25px 0;
+}
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 250px;
+}
+#image{
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+    border: 2px solid orange;
+}
+#image img{    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+Button{
+    background: linear-gradient(180deg, yellow, rgba(231, 45, 38, 1.0));
+    border-radius: 12px;
+    border-color: aquamarine;
+    border-width: 2px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 20;
+    margin-left: 30;
+}
+.x{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(224, 202, 202);
+   
+}
+
+
+.f{
+    
+    color: aliceblue;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.u {
+    display: block;
+   
+}
+
+.p{
+    display: block;
+}
+
+li{
+    display: block;
+    
+}
+
+a{
+    text-decoration:none;
+    color:rgb(237, 217, 217);
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <nav>
+        <h1>Apna Resturant</h1>
+        <ul>
+            <li><a href="Home.html" style="color: white;">Home</a></li>
+            <li><a href="about.html" style="color: white;">About</a></li>
+            <li><a href="order.html" style="color: white;">Order</a></li>
+            <li><a href="contact.html" style="color: white;">contact</a></li>
+    
+        </ul>
+        <div class="btn">
+            <button> <a href="login.html" style="color: white;">Login</a> </button>
+            <button> <a href="sign up 4.html" style="color: white;"> Sign Up</a></button>
+            <a href=""><img src="kart1.png" alt="" ></a>
+        </div>
+    </nav>
+    <h1><marquee><u>Buy Now</u></marquee></h1>
+    <center>
+        <div id="menu">
+        <div id="menu_row">
+        <div id="image">
+<img src="dinner1.jpg" alt="image" height="50%" width="50%">
+</div></div>
+</div>
+<button>$95</button>
+<button onclick="Submit()">
+    <a href="buy.html">Order</button>
+      <script>
+  function Submit()
+  {
+      alert("Are you sure to Order Now");
+  }
+  </Script><hr>
+ <div id="menu"> <div id="menu_row">
+    <div id="image">
+    <img src="dinner2.jpg" alt="image" height="50%" width="50%"></div></div>
+    </div>
+    <button>$90</button>
+    <button onclick="Submit()">
+        <a href="buy.html">Order</button>
+          <script>
+      function Submit()
+      {
+          alert("Are you sure to Order Now");
+      }
+      </Script><hr>
+      <br><br>
+    <div id="menu_row">
+    <div id="image">
+    <img src="dinner3.jpg" alt="image" height="50%" width="50%"></div>
+    </div>
+    <br>
+    <button>$70</button>
+    <button onclick="Submit()">
+        <a href="buy.html">Order</button>
+          <script>
+      function Submit()
+      {
+          alert("Are you sure to Order Now");
+      }
+      </Script>
+</center>
+<footer class="f">
+    <div class="x"><div>
+        <p><img src="placeholder.png" alt="" width="30"> Near by GLA University (Mathura)</p>
+        <p> <img src="telephone.png" alt="" width="30"> 91+ 9999999999</p>
+        <p><img src="gmail.png" alt="" width="30">ApnaResturant.G11@gmail.com</p>
+    </div>
+    <div class="c">
+        
+        <ul class="u">
+           <li> <a href="https://www.facebook.com/"><img src="facebook-new.png" alt="facebook" ></a></li>
+            <li> <a href="https://www.instagram.com/accounts/login/"><img src="instagram-new.png" alt="Instagram Icon" width="30px"></a></li>
+            <li> <a href="https://twitter.com/i/flow/login"><img src="twitter.png" alt="twitter" width="30px"></a></li>
+        </ul>
+    </div>
+    <div class="l">
+        <ul class="p">
+            <li><a href="T&C.html">term &amp; Conditions</a></li><br>
+
+            <li><a href="">privacy Policy</a></li><br>
+
+        </ul>
+    </div>
+</div>
+</footer>
+</body>
+</html>
